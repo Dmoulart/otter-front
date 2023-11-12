@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@total-typescript/ts-reset": "^0.5.1",
     "nuxt": "^3.8.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
@@ -19,6 +20,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.10.0"
+    "@nuxt/ui": "^2.10.0",
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   }
 }

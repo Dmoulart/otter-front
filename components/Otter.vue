@@ -2,7 +2,7 @@
   <div>
     <figure class="otter">
       <h1 class="otter__title"><span class="otter__o">O</span>tter</h1>
-      <img class="otter__gif h-16 w-auto" src="otter.gif" />
+      <img class="otter__gif h-16 w-auto" src="/images/otter.gif" />
     </figure>
   </div>
 </template>
