@@ -1,11 +1,10 @@
 <template>
-  <div>{{ data ?? error }}</div>
+  <div>{{ error ?? data?.albums }}</div>
 </template>
 
 <script setup lang="ts">
-const {data, error, status} = useAsyncData("landing", async () => {
-  const {GET} = useAPI("/albums");
-
-  return {albums: await GET()};
+const {data, error, status} = await useAsyncData("landing", async () => {
+  const albums = useAPI("/albums");
+  return {albums: await albums.GET()};
 });
 </script>
