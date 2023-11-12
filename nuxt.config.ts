@@ -2,9 +2,12 @@
 export default defineNuxtConfig({
   devtools: {enabled: true},
   modules: ["@nuxt/ui"],
-  privateRuntimeConfig: {
-    api: {
-      baseURL: "http://localhost:8080",
+  css: ["~/style/global.scss"],
+  runtimeConfig: {
+    privateRuntimeConfig: {
+      api: {
+        baseURL: "http://localhost:8080",
+      },
     },
   },
 });
