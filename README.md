@@ -1,4 +1,6 @@
-# Step bro : https://github.com/Virgile-29/Otter-api
+# Step bro 
+
+https://github.com/Virgile-29/Otter-api
 
 # Nuxt 3 Minimal Starter
 
